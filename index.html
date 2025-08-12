@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teocravenna — Clon oscuro</title>
+  <!-- Google Fonts: usamos una combinación de tipografías para aproximar el look de la web original.  
+       Bebas Neue para los grandes titulares (“AESTHETIC”), Poppins para el resto de textos y Playfair Display en cursiva para palabras enfatizadas. -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <!-- AOS animations para animaciones de entrada suaves -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Swiper para testimonios -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <!-- FontAwesome para iconos (flechas, redes) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pO+oPEN0Ci3EJze4TdY6pWy/C+5CkS4bjf9iG4c+IzxO4k1iEuzMdGII4XESyqBbpt5TR9+tIbj7jDZC2U5epg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Hoja de estilos propia -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra de navegación fija -->
+  <header class="navbar" id="navbar">
+    <div class="brand"><a href="#hero">TEO<br>CRAVENNA</a></div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#story">Sobre mí</a></li>
+        <li><a href="#productos">Tienda</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="login-btn">Login</a>
+  </header>
+
+  <!-- Hero / portada -->
+  <section id="hero" class="hero">
+    <div class="hero-image"><!-- Imagen aquí --></div>
+    <div class="hero-overlay"></div>
+    <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1200">AESTHETIC</h1>
+    <a href="#comunidad" class="scroll-indicator" data-aos="fade-down" data-aos-delay="1000"><i class="fa-solid fa-chevron-down"></i></a>
+  </section>
+
+  <!-- Comunidad y logros -->
+  <section id="comunidad" class="comunidad section">
+    <div class="section-header" data-aos="fade-right">
+      <span class="asterisk">*</span>
+      <span class="small-title">logros</span>
+      <h2 class="section-title">Mi comunidad</h2>
+      <p class="section-text">Luego de más de 5 años de crear contenido de manera constante, logramos construir una gran comunidad de gente que ama el entrenamiento.</p>
+    </div>
+    <div class="stats" data-aos="fade-left">
+      <div class="stat">
+        <span class="number" data-target="492" data-suffix="k">0</span>
+        <p>Seguidores en instagram</p>
+      </div>
+      <div class="stat">
+        <span class="number" data-target="952" data-suffix="%">0</span>
+        <p>Cambio físico asegurado</p>
+      </div>
+      <div class="stat">
+        <span class="number" data-target="1952" data-suffix="">0</span>
+        <p>Osos activos en la plataforma</p>
+      </div>
+      <div class="stat">
+        <span class="number" data-target="482" data-suffix="k">0</span>
+        <p>Seguidores en youtube</p>
+      </div>
+    </div>
+    <!-- Plan destacado -->
+    <div class="plan" data-aos="zoom-in" data-aos-delay="200">
+      <h3><span class="plan-tag">NUEVO</span> Plan Modo Oso&nbsp;2.0</h3>
+      <p class="plan-sub">El plan más completo para lograr todos tus objetivos.</p>
+      <div class="plan-features">
+        <div><strong>Nuevos planes cada mes</strong><span>Diseñados a tu medida, teniendo en cuenta tus necesidades, gustos y objetivos.</span></div>
+        <div><strong>Atención al detalle</strong><span>Nuestra plataforma cuenta con numerosos videos para que entiendas a detalle tu plan de entrenamiento.</span></div>
+        <div><strong>Comunicación exclusiva</strong><span>Únete a nuestro grupo privado para recibir consejos, motivación y beneficios exclusivos.</span></div>
+      </div>
+      <a href="#" class="btn dark">Más información <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Sección de problema / productos -->
+  <section id="productos" class="productos section">
+    <div class="productos-overlay"><!-- Imagen aquí --></div>
+    <div class="productos-content">
+      <h2 data-aos="fade-up">¿Probaste de todo para mejorar tu físico <span class="emphasis">pero aún así no lo conseguís?</span></h2>
+      <a href="#productos-list" class="btn light" data-aos="fade-up" data-aos-delay="200">Ver productos</a>
+    </div>
+    <div id="productos-list" class="productos-list">
+      <div class="producto" data-aos="fade-up" data-aos-delay="100">
+        <h3>Recetario Anabólico y&nbsp;Proteico</h3>
+        <p>Explora recetas proteicas fáciles y consejos nutricionales para lograr tus metas físicas.</p>
+      </div>
+      <div class="producto" data-aos="fade-up" data-aos-delay="200">
+        <h3>Plan Modo Oso&nbsp;1.0</h3>
+        <p>Transforma tu cuerpo en 8&nbsp;semanas con un plan de entrenamiento enfocado en ganancia muscular.</p>
+      </div>
+      <div class="producto" data-aos="fade-up" data-aos-delay="300">
+        <h3>Plan Powerbuilding</h3>
+        <p>Aumenta fuerza y masa muscular en 10&nbsp;semanas, combinando fuerza y estética.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de historia personal -->
+  <section id="story" class="historia section">
+    <div class="historia-img" data-aos="fade-right"><!-- Imagen aquí --></div>
+    <div class="historia-text" data-aos="fade-left">
+      <h2>Como todos yo también <span class="emphasis">empecé</span> desde cero.</h2>
+      <p>Habiendo empezado sin ningún conocimiento en el fitness y sin nadie que me ayude, pasé años estudiando y experimentando maneras de poder conseguir mi físico soñado. Cuando lo logré, sentí la necesidad de compartirlo con los demás para motivarlos y guiarlos en el camino hacia sus objetivos.</p>
+      <a href="#" class="btn light">Conocer mi historia <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Sección sobre entrenar inteligentemente -->
+  <section class="entrena section">
+    <div class="entrena-text" data-aos="fade-right">
+      <h2>Es muy común ver gente que cree que entrena bien, pero <span class="emphasis">en realidad no lo hace.</span></h2>
+      <p>Muchas personas suelen entrenar con lo que se siente bien, con lo primero que aprendieron o que les gusta. Se quedan ahí, nunca se exigen más ni salen de su zona de confort, y ese es el primer paso para el estancamiento.</p>
+      <a href="#" class="btn light">Conocer mi historia <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div class="entrena-img" data-aos="fade-left"><!-- Imagen aquí --></div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonios section">
+    <div class="section-header" data-aos="fade-up">
+      <span class="asterisk">*</span>
+      <span class="small-title">testimonios</span>
+      <h2 class="section-title">Experiencia de mis clientes</h2>
+    </div>
+    <div class="swiper-container" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+        <!-- Diapositivas de testimonios -->
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+      </div>
+      <!-- Flechas de navegación -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- Servicios 1v1 -->
+  <section class="servicios1v1 section" id="servicios">
+    <div class="servicios-bg"><!-- Fondo gráfico aquí --></div>
+    <div class="servicios-card" data-aos="zoom-in-up">
+      <span class="tag">+10 planes</span>
+      <h2>Servicios 1v1</h2>
+      <p>Ofrecemos servicios de fitness y nutrición personalizados respaldados por la ciencia, con características personalizadas avanzadas.</p>
+      <a href="#" class="btn dark">Más información <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Sección de progreso -->
+  <section class="progreso section">
+    <h2 data-aos="fade-up">Tu progreso</h2>
+    <!-- Envolvemos el canvas en un contenedor con altura fija para controlar su tamaño -->
+    <div class="chart-wrapper" data-aos="fade-up">
+      <canvas id="progresoChart"></canvas>
+    </div>
+    <p class="chart-note" data-aos="fade-up" data-aos-delay="200">Los valores del gráfico son de ejemplo. Reemplaza estos datos con tus propios valores para mostrar tu progreso.</p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; 2025 teocravenna.com</p>
+      <p>Desarrollado con ♥ para practicar.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts externos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- Script propio -->
+  <script src="script_dark.js"></script>
+</body>
+</html>
