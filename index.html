@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clon Teocravenna con estilo FitFlow</title>
+  <!-- AOS (Animate on Scroll) CSS.  This library provides many fade, flip and zoom animations that are triggered when elements enter the viewport【790039867380984†L130-L136】. -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Swiper CSS for the testimonial slider -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <!-- Font Awesome icons for social links and arrows -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pO+oPEN0Ci3EJze4TdY6pWy/C+5CkS4bjf9iG4c+IzxO4k1iEuzMdGII4XESyqBbpt5TR9+tIbj7jDZC2U5epg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Hoja de estilos propia -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegación fija -->
+  <header id="navbar">
+    <div class="logo">TEO<br>CRAVENNA</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#productos">Tienda</a></li>
+        <li><a href="#login" class="login-button">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de portada -->
+  <section id="hero" class="hero-section">
+    <div class="hero-bg"><!-- Imagen aquí --></div>
+    <div class="hero-content" data-aos="fade-up">
+      <h1 class="hero-title"><!-- Texto aquí -->AESTHETIC</h1>
+      <a href="#comunidad" class="scroll-down"><i class="fas fa-arrow-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Sección de logros y comunidad -->
+  <section id="comunidad" class="comunidad-section">
+    <h2 data-aos="fade-up"><span class="asterisk">*</span> logros</h2>
+    <h3 data-aos="fade-up">Mi comunidad</h3>
+    <p data-aos="fade-up"><!-- Texto aquí -->Luego de más de 5 años de crear contenido de manera constante, logramos construir una gran comunidad de gente que ama el entrenamiento.</p>
+    <div class="stats-container">
+      <div class="stat" data-target="115" data-suffix="k">
+        <span class="number">0</span>
+        <p>Seguidores en Instagram</p>
+      </div>
+      <div class="stat" data-target="100" data-suffix="%">
+        <span class="number">0</span>
+        <p>Cambio físico asegurado</p>
+      </div>
+      <div class="stat" data-target="2000" data-suffix="">
+        <span class="number">0</span>
+        <p>Osos activos en la plataforma</p>
+      </div>
+      <div class="stat" data-target="230" data-suffix="k">
+        <span class="number">0</span>
+        <p>Seguidores en Youtube</p>
+      </div>
+    </div>
+
+    <!-- Tarjeta del plan destacado -->
+    <div class="plan-card" data-aos="fade-up">
+      <h4>Nuevo <span>Plan Modo Oso&nbsp;2.0</span></h4>
+      <p>El plan más completo para lograr todos tus objetivos.</p>
+      <div class="plan-features">
+        <div>
+          <strong>Nuevos planes cada mes</strong>
+          <span>Diseñados a tu medida, teniendo en cuenta tus necesidades, gustos y objetivos.</span>
+        </div>
+        <div>
+          <strong>Atención al detalle</strong>
+          <span>Nuestra plataforma cuenta con numerosos videos para que entiendas a detalle tu plan de entrenamiento.</span>
+        </div>
+        <div>
+          <strong>Comunicación exclusiva</strong>
+          <span>Útente a nuestro grupo privado para recibir consejos, motivación y beneficios exclusivos.</span>
+        </div>
+      </div>
+      <a href="#" class="cta-button">Más información</a>
+    </div>
+  </section>
+
+  <!-- Sección de problema y productos -->
+  <section id="productos" class="productos-section">
+    <div class="productos-intro" data-aos="fade-up">
+      <h2>¿Probaste de todo para mejorar tu físico pero aún así no lo conseguís?</h2>
+      <a href="#productos-list" class="cta-button">Ver productos</a>
+    </div>
+    <div id="productos-list" class="productos-list">
+      <div class="producto-card" data-aos="fade-up">
+        <h3><!-- Texto aquí -->Recetario Anabólico y&nbsp;Proteico</h3>
+        <p><!-- Texto aquí -->Explora recetas proteicas fáciles y consejos nutricionales para lograr tus metas físicas.</p>
+      </div>
+      <div class="producto-card" data-aos="fade-up">
+        <h3><!-- Texto aquí -->Plan Modo Oso&nbsp;1.0</h3>
+        <p><!-- Texto aquí -->Transforma tu cuerpo en 8&nbsp;semanas con un plan de entrenamiento enfocado en ganancia muscular.</p>
+      </div>
+      <div class="producto-card" data-aos="fade-up">
+        <h3><!-- Texto aquí -->Plan Powerbuilding</h3>
+        <p><!-- Texto aquí -->Aumenta fuerza y masa muscular en 10&nbsp;semanas, combinando fuerza y estética.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de historia personal -->
+  <section id="sobre" class="historia-section">
+    <div class="historia-content" data-aos="fade-right">
+      <h2>Como todos, yo también empecé desde cero.</h2>
+      <p><!-- Texto aquí -->Habiendo empezado sin ningún conocimiento en el fitness y sin nadie que me ayude, pasé años estudiando y experimentando maneras de poder conseguir mi físico soñado. Cuando lo logre, sentí la necesidad de compartirlo con los demás para motivarlos y guiarlos en el camino hacia sus objetivos.</p>
+      <a href="#" class="cta-button">Conocer mi historia</a>
+    </div>
+    <div class="historia-image" data-aos="fade-left">
+      <!-- Imagen aquí -->
+    </div>
+  </section>
+
+  <!-- Sección sobre entrenar inteligentemente -->
+  <section class="entrena-section">
+    <div class="entrena-image" data-aos="fade-right">
+      <!-- Imagen aquí -->
+    </div>
+    <div class="entrena-content" data-aos="fade-left">
+      <h2>Es muy común ver gente que cree que entrena bien, pero en realidad no lo hace.</h2>
+      <p><!-- Texto aquí -->Muchas personas suelen entrenar con lo que se siente bien, con lo primero que aprendieron o que les gusta. Se quedan ahí, nunca se exigen más ni salen de su zona de confort, y ese es el primer paso para el estancamiento.</p>
+      <a href="#" class="cta-button">Conocer mi historia</a>
+    </div>
+  </section>
+
+  <!-- Sección de testimonios -->
+  <section class="testimonios-section">
+    <h2 data-aos="fade-up"><span class="asterisk">*</span> testimonios</h2>
+    <h3 data-aos="fade-up">Experiencia de mis clientes</h3>
+    <!-- Slider principal -->
+    <div class="swiper-container" data-aos="fade-up">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+        <div class="swiper-slide">
+          <!-- Imagen aquí -->
+        </div>
+      </div>
+      <!-- Controles de navegación -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+  <!-- Sección de servicios personalizados -->
+  <section class="servicios-section" data-aos="fade-up">
+    <h2>Servicios 1v1</h2>
+    <p>Ofrecemos servicios de fitness y nutrición personalizados con características avanzadas respaldadas por la ciencia.</p>
+    <div class="servicios-grid">
+      <div class="servicio-item"><!-- Texto aquí -->Rutinas personalizadas</div>
+      <div class="servicio-item"><!-- Texto aquí -->Dieta a medida</div>
+      <div class="servicio-item"><!-- Texto aquí -->Seguimiento mes a mes</div>
+      <div class="servicio-item"><!-- Texto aquí -->Contacto directo</div>
+    </div>
+    <a href="#" class="cta-button">Más información</a>
+  </section>
+
+  <!-- Sección de gráfico de progreso -->
+  <section class="chart-section">
+    <h2 data-aos="fade-up">Tu progreso</h2>
+    <canvas id="progresoChart" data-aos="fade-up"></canvas>
+    <p class="chart-note"><!-- Texto aquí -->Los valores del gráfico son de ejemplo. Reemplaza estos datos con tus propios valores para mostrar tu progreso.</p>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p><a href="https://teocravenna.com/">teocravenna.com</a></p>
+      <p>&copy; 2025</p>
+    </div>
+  </footer>
+
+  <!-- Librerías y scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Swiper para slider -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!-- Chart.js: librería de gráficos flexible y responsiva para el web moderno【786990560016989†L67-L82】 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- Script propio -->
+  <script src="script.js"></script>
+</body>
+</html>
